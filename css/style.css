@@ -1,0 +1,1865 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body{
+    height: 100%;
+    background-color: #040714;
+}
+
+
+
+
+/* aqui começa a estilização do header */
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.clear{
+    clear:both;
+}
+
+header.header-disney{
+   width: 100%;
+   padding: 7px 2%;
+   background-color: #040714;
+   position: fixed;
+   display:none;
+   z-index: 2;
+}
+
+
+.logo-disney img{
+  width: 85px;
+  margin-left: 20px;
+}
+
+
+.flex-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+
+
+.buttons input[name=assine-agora]{
+    width: 187px;
+    height: 54px;
+    line-height: 54px;
+    color: white;
+    background-color:#0066ff;
+    text-transform:uppercase;
+    font-size: 19px;
+    letter-spacing: 2px;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+    margin-right: 5px;
+    
+}
+
+.buttons input[name=entrar]{
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform:uppercase;
+    position: relative;
+    bottom: 1px;
+ 
+ 
+
+  
+}
+
+
+
+
+
+
+
+
+
+.buttons input[name=entrar]:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+/* ---------------------------------------------- */
+
+section.assine-oferta{
+   width: 100%;
+   height: 110vh;
+ 
+ 
+}
+.assine-oferta-disney-background{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../imagens/background-disney.jfif');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  
+
+    
+}
+
+
+
+
+.button-entrar{
+  
+    text-align: right;
+}
+
+.button-entrar input[name=entrar]{
+    width: 110px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform:uppercase;
+   
+    margin-right: 40px;
+    margin-top: 13px;
+ 
+
+  
+}
+
+
+.button-entrar input[name=entrar]:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+
+.content-assine-oferta{
+ 
+    width: 50%; 
+    text-align: center;
+    color: white;
+    margin-left: 30px;
+    margin-top: 50px;
+    
+}
+
+.content-assine-oferta h2{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+
+
+.logo-disney-assine-oferta img{
+  width: 300px;
+  margin-top: 28px;
+}
+
+
+.button-assine-oferta input[type=submit]{
+    width: 100%;
+    max-width: 600px;
+    height: 67px;
+    line-height: 67px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#6a17fa;
+    border: 0;
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 17px;
+    letter-spacing: 1px;
+    margin-top: 25px;
+   
+}
+
+
+.button-assine-oferta input[type=submit]:hover{
+    background-color: #762bf8fa;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+
+.opcoes-assinatura{
+    margin-top: 25px;
+}
+    
+.opcoes-assinatura a{
+    color: white;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+
+
+/* --------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+/* Aqui começa a sessão escolha seu plano */
+
+
+section.escolha-seu-plano{
+    width: 100%;
+    height: 90vh;
+    background-color:#040714;
+    display: inline-block
+}
+
+.flex-oferta{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;  
+    
+    
+  
+    
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+.titulo h1{
+  font-size: 45px;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.box-oferta{
+    margin-top: 25px;
+  
+
+}
+
+.box-oferta img{
+    max-width:380px;
+    width: 100%;
+   
+   
+   
+
+    
+}
+
+.content-box{
+   max-width: 380px;
+   width: 33.3%;
+   position:absolute;
+   text-align: center;
+   padding: 0 2%;
+}
+
+.content-box h2{
+    font-size: 20px;
+    margin-top: 60px;
+    color:#c0c0c0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    
+}
+
+
+.content-box span{
+    color: white;
+    display: block;
+    font-size: 28px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+.content-box p{
+    width: 100%;
+    color: #c0c0c0;
+    margin-top: 7px;
+    font-size: 18px;
+    max-width: 260px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    line-height: 30px;
+   
+}
+
+
+.button-assinar-purple{
+    width:100%;
+  
+}
+
+.button-assinar-blue{
+    width: 100%;
+ 
+}
+.button-assinar-purple input[type=submit]{
+  width: 270px;
+  height: 58px;
+  line-height: 58px;
+  margin-top: 20px;
+  color: white;
+  font-size: 19px;
+  background-color:#6a17fa;
+  border: 0;
+  border-radius: 4px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+
+}
+
+.button-assinar-purple input[type=submit]:hover{
+    background-color: #762bf8fa;
+    cursor: pointer;
+    transition: 0.7s;
+
+}
+
+.button-assinar-blue input[type=submit]:hover{
+    background-color: #2695fd;
+    cursor: pointer;
+    transition: 0.7s;
+}
+.button-assinar-blue input[type=submit]{
+    width: 270px;
+    height: 58px;
+    line-height: 58px;
+    margin-top: 20px;
+    color: white;
+    font-size: 19px;
+    background-color:#0084ff;
+    border: 0;
+    border-radius: 4px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+
+}
+
+
+
+
+/* ------------------------------------------------ */
+
+
+/* Aqui começa a sessão assista do seu jeito */
+
+
+
+
+
+
+
+section.assista-do-seu-jeito{
+    width: 100%;
+    height: 95vh;
+    background-color:#040714;
+    display: inline-block;
+  
+
+}
+
+.warning-oferta span{
+    
+    display: block;
+    text-align: center;
+    margin-top:30px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #c0c0c0;
+}
+
+
+.flex-assista-do-seu-jeito{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    padding: 0 5%;
+  
+  
+   
+}
+
+.content-assista-do-seu-jeito h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 38px;
+}
+.content-assista-do-seu-jeito p{
+    color: #c0c0c0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    width: 100%;
+    max-width: 550px;
+    margin-top:20px;
+    line-height: 32px;
+
+    
+}
+
+
+.background-assista-do-seu-jeito {
+     width: 500px;
+     height: 430px;
+     background-image: url('../imagens/assista-do-seu-jeito.png');
+     background-size:cover;
+     background-repeat: no-repeat;
+}
+
+
+
+/* ------------------------------------------- */
+
+/* Aqui começa a sessão mosaico disney */
+
+section.mosaico-disney{
+    width: 100%;
+    height: 155vh;
+    background-color:#040714;
+    display: inline-block;
+}
+
+
+.container-mosaico{
+    width: 100%;
+    max-width: 1210px;
+    margin: 0 auto;
+
+}
+.title-mosaico-disney{
+    text-align: center;
+    margin-top: 65px;
+
+}
+
+
+.title-mosaico-disney h1{
+    color: white;
+    font-size:  40px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.title-mosaico-disney h2{
+    color: #c0c0c0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+.mosaico-wraper{
+    margin-top: 30px;
+
+}
+
+.mosaico-single{
+    display: flex;
+    width: calc(100% / 3);
+   
+  
+}
+
+.img-mosaico-single {
+    width: 100%;
+	padding-top:55%;
+    border: 10px solid #040714;
+    border-radius: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+
+
+
+/* -------------------------------------------- */
+
+/* Aqui começa a section baixe filmes e series */
+
+section.baixe-filmes-e-series{
+    width: 100%;
+    height: 120vh;
+    background-color:#040714;
+    
+}
+
+.flex-background{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:center;
+    padding: 0 2%;
+    
+}
+.background-rei-leao{
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 50%;
+    background-image: url('../imagens/rei-leao.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+   
+}
+
+
+.content-background{
+  position: absolute;
+  margin-left: 48%;
+  margin-top: 5%;
+}
+
+
+.content-background h2{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.content-background p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #c0c0c0;
+    width: 100%;
+    font-size: 17px;
+    max-width: 500px;
+    margin-top: 25px;
+ 
+}
+
+
+
+/* ----------------------------------------------------- */
+
+
+/* Aqui começa a section dispositivos */
+
+
+section.dispositivos{
+    width: 100%;
+    height: 110vh;
+    background-color:#040714;
+    display: inline-block;
+    
+}
+
+.title-dispositivos{
+    color: white;
+    text-align: center;
+}
+.title-dispositivos h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 39px;
+    margin-top: 80px;
+
+}
+
+
+.dispositivos-wraper{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   margin-right: 2%;      
+}
+
+.img-dispositivos:nth-of-type(2){
+    margin-top: 110px;
+}
+
+.img-dispositivos:nth-of-type(3){
+    margin-top: 50px;
+}
+
+.img-dispositivos img{
+    width: 100%;
+    max-width: 290px;
+   
+ 
+}
+
+
+
+
+
+.img-dispositivos h2{
+ text-align: center;
+ color: white;
+ font-family: 'Roboto', sans-serif;
+ font-weight: 500;
+ font-size: 28px;
+ margin-top: 15px;
+}
+
+.img-dispositivos p{
+    text-align: center;
+    color: #c0c0c0;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    
+   }
+
+   .disponivel{
+       margin-top: 30px ;
+   }
+
+   /* ------------------------------------------ */
+
+
+/* Aqui começa a section perguntas-frequentes */
+
+  section.perguntas-frequentes{
+      width: 100%;
+      height: 90vh;
+      background-color:#040714;
+      display: inline-block;
+      text-align: center;
+  }
+
+
+  .titulo-perguntas-frequentes h1{
+      text-align: center;
+      color: white;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      margin-top:180px;
+      margin-bottom: 20px;
+      font-size: 40px;
+  }
+
+
+  .perguntas-frequentes-wraper{
+      width: 88%;
+      height:75px;
+      background-color:#13151d;
+      display: inline-block;    
+      margin-top: 16px;
+      cursor: pointer;
+  }
+
+
+  .perguntas-frequentes-wraper2{
+    width: 88%;
+    height:75px;
+    background-color:#13151d;
+    display: inline-block;    
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+
+.perguntas-frequentes-wraper3{
+    width: 88%;
+    height:75px;
+    background-color:#13151d;
+    display: inline-block;    
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+  
+  .perguntas-frequentes-wraper p{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    line-height: 75px;
+    margin-left: 25px;
+    font-size: 20px;  
+
+}
+
+
+.perguntas-frequentes-wraper3 p{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    line-height: 75px;
+    margin-left: 25px;
+    font-size: 20px;  
+
+}
+
+
+.perguntas-frequentes-wraper2 p{
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: white;
+    line-height: 75px;
+    margin-left: 25px;
+    font-size: 20px;  
+
+}
+
+.resposta-perguntas-frequentes{
+    width: 88%;
+    height: 67vh;
+    background-color: #13151d;
+    display: inline-block;
+    display:none;
+  
+}
+
+
+
+.resposta-perguntas-frequentes2{
+    width: 88%;
+    height: 59vh;
+    background-color: #13151d;
+    display: inline-block;
+    display:none;
+  
+}
+ 
+.resposta-perguntas-frequentes3{
+    width: 88%;
+    height: 13vh;
+    background-color: #13151d;
+    display: inline-block;
+    display:none;
+   
+  
+}
+
+
+
+.conteudo{
+  
+    
+    text-align: left;
+    color: #c0c0c0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    
+    margin-left: 25px;
+}
+
+
+.conteudo p{
+    margin-top: 10px;
+}
+
+.conteudo p span{
+    font-size: 30px;
+    display: inline-block;
+}
+
+.conteudo h3{
+    font-weight:normal;
+    font-size: 20px;
+   
+}
+
+
+
+
+
+
+  /* ------------------------------------------ */
+
+
+  /*------------- footer -------------*/
+
+  .footer{
+      width: 100%;
+      height: 60vh;
+      background-color:#040714;
+  }
+
+  .img-disney-footer{
+      text-align: center;
+      margin-top: 50px;
+ 
+  }
+
+
+  .img-disney-footer img{
+      margin-top: 60px;
+      width: 90px;
+  }
+
+
+  .content-footer{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #c0c0c0;
+    font-size: 12px;
+    margin-top: 13px;
+    
+  }
+  
+  .content-footer span:nth-child(7){
+      display: block;
+      margin-top: 23px;
+  }
+  .content-footer span{
+     margin: 0 10px;
+    
+
+
+  }
+
+  .content-footer p{
+      margin-top: 28px; 
+  }
+
+
+  .content-footer p:nth-child(10){
+      margin:0;
+  }
+/*-------- design responsivo ---------*/
+
+@media screen and (max-width: 1025px){
+    
+  
+     section.assine-oferta{
+        width: 100%;
+        height: 160vh;
+        background-color:#040714;
+        
+    }
+    
+    .assine-oferta-disney-background{
+        width: 100%;
+        height: 100vh;
+        background-image:url('../imagens/background-disney2\(9\).jfif');
+        background-size: cover;
+    }
+    
+    .content-assine-oferta{
+ 
+        width: 100%; 
+        text-align: center;
+        color: white;
+        margin-left: 0;
+        margin-top: 50%;
+        
+    }
+    
+    .content-assine-oferta h2{
+
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 26px;
+        letter-spacing: 1px;
+    }
+    
+    .logo-disney-assine-oferta img{
+        width: 300px;
+        margin-top: 28px;
+      }
+      
+      
+      .button-assine-oferta input[type=submit]{
+          width: 100%;
+          max-width: 600px;
+          height: 67px;
+          line-height: 67px;
+          text-transform: uppercase;
+          color: white;
+          background-color:#6a17fa;
+          border: 0;
+          border-radius: 6px;
+          font-family: 'Montserrat', sans-serif;
+          font-weight: 100;
+          font-size: 17px;
+          letter-spacing: 1px;
+          margin-top: 25px;
+         
+      }
+      
+      
+      .button-assine-oferta input[type=submit]:hover{
+          background-color: #762bf8fa;
+          cursor: pointer;
+          transition: 0.7s;
+      
+      }
+      
+      
+      .opcoes-assinatura{
+          margin-top: 25px;
+      }
+          
+      .opcoes-assinatura a{
+          color: white;
+          font-size: 17px;
+          font-family: 'Roboto', sans-serif;
+          font-weight: 100;
+      }
+
+      .button-entrar{
+        
+        text-align: right;
+    }
+    
+    .button-entrar input[name=entrar]{
+        width: 110px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 19px;
+        letter-spacing: 2px;
+        border-radius: 4px;
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+        text-transform:uppercase;
+        position:relative;
+        bottom: 1px;
+        margin-right: 40px;
+        margin-top: 13px;
+     
+    
+      
+    }
+      
+    
+    
+    
+}
+
+@media screen and (max-width: 770px){
+
+    section.assine-oferta{
+        width: 100%;
+        height: 140vh;
+        display:block;
+        background-color:#040714;
+        
+    }
+    .content-assine-oferta{
+ 
+        width: 100%; 
+        text-align: center;
+        color: white;
+        margin-left: 0;
+        margin-top: 50%;
+        
+    }
+    
+    .content-assine-oferta h2{
+
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 22px;
+        letter-spacing: 1px;
+    }
+    .logo-disney-assine-oferta img{
+        width: 190px;
+        margin-top: 28px;
+      }
+
+      .button-assine-oferta input[type=submit]{
+        width: 100%;
+        max-width: 500px;
+        height: 50px;
+        line-height: 50px;
+        
+    }
+    
+    
+    .button-assine-oferta input[type=submit]:hover{
+        background-color: #762bf8fa;
+        cursor: pointer;
+        transition: 0.7s;
+    
+    }
+
+
+    .opcoes-assinatura{
+        margin-top: 25px;
+    }
+        
+    .opcoes-assinatura a{
+        color: white;
+        font-size: 15px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+    }
+    
+
+
+    .buttons input[name=assine-agora]{
+        width: 160px;
+        height: 45px;
+        line-height: 45px;
+        font-size: 15px;
+      
+        
+    }
+
+
+    .buttons input[name=entrar]{
+        width: 90px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px;
+       
+     
+     
+    
+      
+    }
+    
+    
+    .button-entrar{
+    
+        text-align: right;
+    }
+    
+    .button-entrar input[name=entrar]{
+        width: 85px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 15px; 
+        margin-right: 17px;
+        margin-top: 13px;
+     
+    
+      
+    }
+
+        
+    .button-entrar input[name=entrar]:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    
+}
+
+
+
+@media screen and (max-width: 550px){
+
+
+    section.assine-oferta{
+        width: 100%;
+        height: 110vh;
+       
+    
+    }
+    .button-assine-oferta input[type=submit]{
+        width: 100%;
+        max-width: 420px;
+        height: 50px;
+        line-height: 50px;
+        text-transform: uppercase;
+        color: white;
+        background-color:#6a17fa;
+        border: 0;
+        border-radius: 6px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        font-size: 15px;
+        letter-spacing: 1px;
+        margin-top: 25px;
+       
+    }
+    
+
+
+  
+    .opcoes-assinatura a{
+        color: white;
+        font-size: 13px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 100;
+    }
+    
+}
+
+
+/* ----------------------------------------------- */
+@media screen and (max-width: 1200px){
+    .box-oferta img{
+        max-width:320px;
+        width: 100%;
+       
+       
+       
+    
+        
+    }
+
+    .content-box{
+        max-width: 320px;
+      
+     }
+    .content-box h2{
+        font-size: 16px;
+        margin-top: 60px;
+        
+        
+        
+    }
+    
+    
+    .content-box span{
+        
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+    
+    .content-box p{
+        line-height: 28px;
+        font-size: 16px;
+        max-width: 240px;
+    }
+    
+    
+    .button-assinar-purple input[type=submit]{
+      max-width: 230px;
+      width:100%;
+      height: 58px;
+    
+    }
+    
+    .button-assinar-blue input[type=submit]{
+        width: 230px;
+       
+    }
+}
+/* responsivo section escolha seu plano */
+
+@media screen and (max-width: 1025px){
+    .content-box h2{
+        font-size: 16px;
+        margin-top: 60px;
+        
+        
+        
+    }
+    
+    
+    .content-box span{
+        
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+    
+    .content-box p{
+        line-height: 28px;
+        font-size: 16px;
+        max-width: 240px;
+    }
+    
+    
+    .button-assinar-purple input[type=submit]{
+      max-width: 230px;
+      width:100%;
+      height: 58px;
+    
+    }
+    
+    .button-assinar-blue input[type=submit]{
+        width: 230px;
+       
+    }
+    
+}
+
+
+
+@media screen and (max-width: 1000px){
+    .button-assinar-purple input[type=submit]{
+        max-width: 200px;
+        width:100%;
+        height: 58px;
+      
+      }
+      
+      .button-assinar-blue input[type=submit]{
+          width: 200px;
+         
+      }
+
+      .box-oferta img{
+        max-width:240px;
+        width: 100%;
+       
+       
+       
+    
+        
+    }
+
+    .content-box{
+        max-width: 240px;
+      
+     }
+    .content-box h2{
+        font-size: 16px;
+        margin-top: 60px;
+        
+        
+        
+    }
+    
+    
+    .content-box span{
+        
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+    
+    .content-box p{
+        line-height: 28px;
+        font-size: 14px;
+        max-width: 240px;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 780px){
+    
+    section.escolha-seu-plano{
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .flex-oferta{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        
+        
+    
+        
+    }
+
+    .box-oferta img{
+        max-width:380px;
+        width: 100%;
+       
+       
+       
+    
+        
+    }
+
+    .content-box{
+        max-width: 380px;
+        width: 100%;
+    
+    }
+
+    .content-box h2{
+        font-size: 15px;
+        margin-top: 60px;
+        
+        
+        
+    }
+
+
+    .content-box span{
+        
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+
+    .content-box p{
+        line-height: 28px;
+        font-size: 14px;
+        max-width: 300px;
+    }
+
+    .button-assinar-purple input[type=submit]{
+        max-width: 290px;
+        height: 50px;
+        line-height: 50px;
+    
+    }
+    
+    .button-assinar-blue input[type=submit]{
+        width: 290px;
+        height: 50px;
+        line-height: 50px;
+    }
+}
+
+
+
+
+/* ------------------------------------------------- */
+
+
+
+/* responsivo section assista do seu jeito */
+
+
+@media screen and (max-width: 1025px){
+    
+.content-assista-do-seu-jeito h1{
+    font-size: 30px;
+}
+.content-assista-do-seu-jeito p{
+   
+    font-size: 18px;
+    width: 100%;
+    max-width: 460px;
+    margin-top:20px;
+    line-height: 32px;
+
+    
+}
+
+
+.background-assista-do-seu-jeito {
+     width: 550px;
+     height: 430px;
+     background-image: url('../imagens/assista-do-seu-jeito.png');
+     background-size:contain;
+     background-repeat: no-repeat;
+}
+
+}
+
+
+
+@media screen and (max-width:900px){
+    .content-assista-do-seu-jeito{
+        margin-top: -100px;
+    }
+}
+
+
+@media screen and (max-width: 780px){
+
+    section.assista-do-seu-jeito{
+        width: 100%;
+        height: auto;
+        min-height: 110vh;
+       
+      
+    
+    }
+    
+    
+    .flex-assista-do-seu-jeito{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content:center;
+        margin-top: 90px;
+        padding: 0 5%;
+      
+      
+       
+    }
+
+    .content-assista-do-seu-jeito{
+        margin-top: 30px;
+        text-align: center;
+    }   
+
+    .content-assista-do-seu-jeito h1{
+        font-size: 25px;
+    }
+    .content-assista-do-seu-jeito p{
+       
+        font-size: 16px;
+        width: 100%;
+        max-width: 600px;
+        margin-top:20px;
+        line-height: 26px;
+        padding: 0 5%;
+    
+        
+    }
+    
+    
+}
+
+@media screen and (max-width: 570px){
+    .background-assista-do-seu-jeito {
+        width: 430px;
+        height: 430px;
+       
+   }
+   .content-assista-do-seu-jeito{
+    margin-top: -50px;
+    text-align: center;
+}  
+}
+
+
+/* ---------------------------------------------------- */
+
+
+/* responsivo section mosaico disney */
+
+
+@media screen and (max-width: 1025px){
+
+    
+    section.mosaico-disney{
+        width: 100%;
+        height: auto;
+        min-height: 125vh;
+    }
+    
+    .title-mosaico-disney h1{
+       
+        font-size:  30px;
+       
+    }
+    
+    .title-mosaico-disney h2{
+    
+        font-size: 17px;
+    
+    }
+    
+    
+}
+
+@media screen and (max-width: 768px){
+    
+    section.mosaico-disney{
+        width: 100%;
+        height: auto;
+       
+    }
+
+   
+    
+
+    
+    
+   
+}
+@media screen and (max-width: 780px){
+
+    section.mosaico-disney{
+        width: 100%;
+        height: auto;
+        min-height: 110vh;
+    }
+    
+   
+    
+    
+    
+    
+}
+
+@media screen and (max-width: 580px){
+    section.mosaico-disney{
+        width: 100%;
+        height: auto;
+        min-height: 100vh;
+        
+    }
+
+  
+    
+}
+
+
+/* responsivo section baixe filmes e series */
+
+
+@media screen and (max-width: 1100px){
+    
+    .content-background p{
+        width: 100%;
+        font-size: 17px;
+        max-width: 400px;
+        margin-top: 25px;
+    
+    }
+
+
+    @media screen and (max-width: 1025px){
+
+        section.baixe-filmes-e-series{
+            width: 100%;
+            height: auto;
+            min-height: 90vh ;
+           
+            
+        }
+        .flex-background{
+            padding: 0 5%;
+            
+        }
+        
+        
+        
+        .content-background h2{
+            font-size: 23px;
+        }
+    }
+}
+
+    @media screen and (max-width: 900px){
+
+
+        section.baixe-filmes-e-series{
+            width: 100%;
+            height: auto;
+            min-height: 90vh ;
+            
+        }
+        
+        .content-background p{
+            width: 100%;
+            font-size: 17px;
+            max-width: 350px;
+            margin-top: 25px;
+        
+        }
+    }
+
+    @media screen and (max-width: 800px){
+        .content-background p{
+            width: 100%;
+            font-size: 17px;
+            max-width: 265px;
+            margin-top: 25px;
+        
+        }
+    }
+
+    @media screen and (max-width: 780px){
+        section.baixe-filmes-e-series{
+            width: 100%;
+            height: auto;
+            min-height: 80vh ;
+            
+        }
+        
+        .flex-background{
+            display: flex;
+            flex-direction:column;
+            padding: 0 2%;
+            
+        }
+        .background-rei-leao{
+            width: 100%;
+            max-width: 1200px;
+            padding-top: 70%;
+            background-image: url('../imagens/rei-leao-mobile.png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin-top: 50px;
+           
+        }
+        
+        
+        
+        .content-background{
+          position: static;
+          text-align: center;
+          margin-left: 0;
+        }
+        
+        
+        .content-background h2{
+         
+            font-size: 30px;
+        }
+        
+        .content-background p{
+           padding: 0 2%;
+            width: 100%;
+            font-size: 17px;
+            margin-top: 25px;
+            max-width: 500px;
+          
+        }
+    }
+
+
+    /* ---------------------------------- */
+
+
+    /* responsivo section dispositivos */
+
+
+    @media screen and (max-width: 1025px){
+        .title-dispositivos h1{
+            font-size: 28px;
+            margin-top: 80px;
+        
+        }
+        
+        
+       
+        
+        .img-dispositivos img{
+            width: 100%;
+            max-width: 290px;
+            margin-top: 0px;
+         
+        }
+        
+        .dispositivos-wraper{
+           padding: 0 2%;
+                                                
+         }
+        
+        
+        
+        .img-dispositivos h2{
+         font-size: 20px;
+         margin-top: 15px;
+        }
+        
+        .img-dispositivos p{
+            text-align: center;
+            color: #c0c0c0;
+            font-size: 15px;
+            margin-top: 5px;
+           }
+        
+    }
+
+
+
+    @media screen and (max-width: 780px){
+        section.dispositivos{
+            width: 100%;
+            height: auto;
+            background-color:#040714;
+            display: inline-block;
+            
+        }
+    
+        .title-dispositivos h1{
+            font-size: 28px;
+            margin-top: 80px;
+        
+        }
+        
+        
+        .dispositivos-wraper{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+          
+                                               
+        }
+
+        .img-dispositivos:nth-of-type(2){
+            margin-top: 0px;
+        }
+        
+        .img-dispositivos:nth-of-type(3){
+            margin-top: 0px;
+        }
+        
+        .img-dispositivos img{
+            width: 100%;
+            max-width: 250px;
+            margin-top:50px;
+         
+        }
+        
+        
+           .disponivel{
+               margin-top: 0px ;
+           }
+        
+    }
+
+    /* -------------------------------- */
+
+
+    /* responsivo section perguntas frequentes */
+
+
+    @media screen and (max-width:1025px){
+
+        .titulo-perguntas-frequentes h1{
+           
+            margin-top:180px;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+      
+      
+    
+        .perguntas-frequentes-wraper p{
+           
+            font-size: 18px;  
+      
+        }
+        .perguntas-frequentes-wraper2 p{
+           
+            font-size: 18px;  
+      
+        }
+        .perguntas-frequentes-wraper3 p{
+           
+            font-size: 18px;  
+      
+        }
+
+
+          .conteudo p{
+            font-size: 14px;
+                   }
+      
+    }
+
+    @media screen and (max-width: 780px){
+        .resposta-perguntas-frequentes{
+            height: 75vh;
+           
+        }
+
+
+        .resposta-perguntas-frequentes2{
+            height: 70vh;
+           
+        }
+
+        .resposta-perguntas-frequentes .conteudo p{
+             margin-top: 5px;
+        }
+     
+    }
+
+
+    /* --------------------------------------- */
+
+
+    /* responstivo footer */
+
+    @media screen and (max-width: 1025px){
+        
+    .content-footer{
+        padding: 0 5%;
+        
+    }
+  
+     .content-footer span:nth-child(5){
+        margin-top: 0;
+        display:block;
+        margin-top: 15px;
+     }
+
+     .content-footer span:nth-child(6){
+        margin-top: 0;
+        display: block;
+     }
+    }   
+
+
+    @media screen and (max-width: 780px){
+        
+    .footer{
+        width: 100%;
+        height: auto;
+        min-height: 77vh;
+        background-color:#040714;
+    }
+
+    }
+
+    @media screen and (max-width: 500px){
+
+            
+        .footer{
+            width: 100%;
+            height: auto;
+            min-height: 83vh;
+            background-color:#040714;
+        }
+
+        .content-footer span:nth-child(3){
+            margin-top: 0;
+            display:block;
+          
+         }
+
+         
+        .content-footer p{
+            margin-top: 25px; 
+            font-size: 11px;
+            line-height: 20px;
+        }
+
+
+    }
